@@ -69,3 +69,55 @@ body {
     text-decoration: underline;
 }
 
+html {
+    scroll-behavior:smooth;
+}
+
+.section1 {
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.section2 {
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 85vh;
+}
+
+.section2 p {
+    text-align: left;
+    align-items:start;
+    color: var(--dark-grey);
+    font-size:large;
+}
+
+.section3 {
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 20vh;
+}
+
+.exam-list {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.exam-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.exam-item h3 {
+    color: var(--primary-blue);
+    margin-bottom: 10px;
+}
+
+.exam-item p {
+    color: var(--dark-grey);
+    font-size: 0.9rem;
+}
