@@ -1,0 +1,71 @@
+/*Importing the font-style "Roboto" from Google-Fonts.*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Color scheme*/
+:root{
+    --primary-blue: #007bff;
+    --dark-blue: #0056b3;
+    --darker-blue: #003f7f;
+    --light-grey: #f4f4f9;
+    --dark-grey: #333;
+}
+
+/*General Layout*/
+body {
+    background-color: var(--light-grey);
+    color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--primary-blue);
+    color:white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-title{
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
