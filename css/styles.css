@@ -71,6 +71,7 @@ body {
 
 html {
     scroll-behavior:smooth;
+    scroll-padding-top: 80px;
 }
 
 .section1 {
@@ -92,10 +93,20 @@ html {
     font-size:large;
 }
 
+#about{
+    padding: 20px;
+    margin-right: 250px;
+    min-height: calc(100vh - 80vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .section3 {
-    padding: 80px 20px;
+    padding: 20px;
     text-align: center;
     min-height: 20vh;
+    margin-right: 250px;
 }
 
 .exam-list {
@@ -120,4 +131,76 @@ html {
 .exam-item p {
     color: var(--dark-grey);
     font-size: 0.9rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+    margin-right: 250px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: calc(100vh - 60px);
+    height: 100vh;
+    overflow-y: auto;
+    right: 0;
+    top: 60px;
+    z-index: 999;
+}
+
+.sidebar h2{
+    text-align: center;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li{
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar li:hover{
+    background-color: var(--dark-blue);
+}
+
+.exams{
+    display: none;
+    padding-left: 15px;
+}
+
+.content{
+    flex: 1;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+@media (max-width:1024px){
+    .container{
+        flex-direction: column;
+    }
+    .sidebar{
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    .content{
+        margin-right: 0;
+    }
+}
+
+@media (max-width:768px){
+    .sidebar{
+        display: none;
+    }
 }

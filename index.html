@@ -27,13 +27,33 @@
 
     <!--Home section-->
     <section id="home" class="section1">
+        <main class="container">
+            <aside class="sidebar">
+                <h2>Exam Boards</h2>
+                <ul>
+                    <li class="board" onclick="toggleExams('ssc')">SSC</li>
+                    <ul id="ssc" class="exams"></ul>
+                    <li class="board" onclick="toggleExams('upsc')">UPSC</li>
+                    <ul id="upsc" class="exams"></ul>
+                    <li class="board" onclick="toggleExams('banking')">Banking</li>
+                    <ul id="banking" class="exams"></ul>
+                    <li class="board" onclick="toggleExams('statepsc')">State PSCs</li>
+                    <ul id="statepsc" class="exams"></ul>
+                </ul>
+            </aside>
+            <section class="content">
+                <h2>Welcome to the Exam Syllabus Portal</h2><br>
+                <p>Select an exam board to view its syllabus.</p>
+                <div id="syllabus-display"></div>
+            </section>
+        </main>
     </section>
 
     <!--About section-->
     <section id="about" class="section2">
         <h2>About Us</h2>
         <p>Our <strong>Job Exam Syllabus</strong> platform is designed to provide aspirants with structured and
-            up-to-date syllabi for various competitive exams. This project aims to help candidates prepare effectively
+            up-to-date syllabus for various competitive exams. This project aims to help candidates prepare effectively
             by offering a well-organized collection of exam syllabus for <strong>SSC, UPSC, Banking, and State
                 PSCs</strong> in a single place.</p>
 
@@ -56,7 +76,6 @@
         <br>
 
         <p>Exams we cover:</p>
-        <br>
         <div class="exam-list">
             <div class="exam-item">
                 <h3>SSC (Staff Selection Commission)</h3>
