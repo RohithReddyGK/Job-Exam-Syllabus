@@ -1,0 +1,38 @@
+{
+  "boardName": "SSC",
+  "exams": [
+    {
+      "examName": "SSC CGL",
+      "syllabus": {
+        "Prelims": [
+          "General Intelligence and Reasoning",
+          "General Awareness",
+          "Quantitative Aptitude",
+          "English Comprehension"
+        ],
+        "Mains": [
+          "Quantitative Abilities",
+          "English Language and Comprehension",
+          "Statistics",
+          "General Studies (Finance and Economics)"
+        ],
+        "Interview": []
+      }
+    },
+    {
+      "examName": "SSC CHSL",
+      "syllabus": {
+        "Prelims": [
+          "General Intelligence",
+          "Quantitative Aptitude",
+          "English Language"
+        ],
+        "Mains": [
+          "Essay Writing",
+          "Letter/Application Writing"
+        ],
+        "Interview": []
+      }
+    }
+  ]
+}

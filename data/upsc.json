@@ -1,0 +1,25 @@
+{
+  "boardName": "UPSC",
+  "exams": [
+    {
+      "examName": "Civil Services Exam",
+      "syllabus": {
+        "Prelims": [
+          "General Studies Paper I",
+          "General Studies Paper II(CSAT)"
+        ],
+        "Mains": [
+          "Essay",
+          "General Studies I",
+          "General Studies II",
+          "General Studies III",
+          "General Studies IV",
+          "Optional Subject"
+        ],
+        "Interview": [
+          "Personality Test"
+        ]
+      }
+    }
+  ]
+}

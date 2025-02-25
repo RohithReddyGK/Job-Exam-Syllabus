@@ -1,0 +1,25 @@
+{
+  "boardName": "State PSCs",
+  "exams": [
+    {
+      "examName": "Karnataka PSC",
+      "syllabus": {
+        "Prelims": [
+          "General Studies Paper I",
+          "General Studies Paper II"
+        ],
+        "Mains": [
+          "Kannada",
+          "English",
+          "General Studies I",
+          "General Studies II",
+          "General Studies III",
+          "General Studies IV"
+        ],
+        "Interview": [
+          "Personality Test"
+        ]
+      }
+    }
+  ]
+}

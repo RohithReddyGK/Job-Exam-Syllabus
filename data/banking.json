@@ -1,0 +1,24 @@
+{
+  "boardName": "Banking",
+  "exams": [
+    {
+      "examName": "IBPS PO",
+      "syllabus": {
+        "Prelims": [
+          "English Language",
+          "Quantitative Aptitude",
+          "Reasoning Ability"
+        ],
+        "Mains": [
+          "Reasoning & Computer Aptitude",
+          "General/Economy/BankingAwareness",
+          "English Language",
+          "Data Analysis & Interpretation"
+        ],
+        "Interview": [
+          "Personality Test"
+        ]
+      }
+    }
+  ]
+}
