@@ -1,116 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Job Exam Syllabus</title>
-    <link rel="icon" href="./assests/Job Exam Syllabus Logo.webp">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
+    <link rel="icon" href="./assests/Job Exam Syllabus Logo.webp" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="logo-title">
-            <img src="./assests/Job Exam Syllabus Logo.webp" alt="Logo" class="logo">
-            <h1>Job Exam Syllabus</h1>
-        </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Search for job exam syllabus.....">
-        </div>
-        <nav class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <div class="logo-title">
+        <img
+          src="./assests/Job Exam Syllabus Logo.webp"
+          alt="Logo"
+          class="logo"
+        />
+        <h1>Job Exam Syllabus</h1>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Search for job exam syllabus....." />
+      </div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
     <!--Home section-->
     <section id="home" class="section1">
-        <main class="container">
-            <aside class="sidebar">
-                <h2>Exam Boards</h2>
-                <ul>
-                    <li class="board" onclick="toggleExams('ssc')">SSC</li>
-                    <ul id="ssc" class="exams"></ul>
-                    <li class="board" onclick="toggleExams('upsc')">UPSC</li>
-                    <ul id="upsc" class="exams"></ul>
-                    <li class="board" onclick="toggleExams('banking')">Banking</li>
-                    <ul id="banking" class="exams"></ul>
-                    <li class="board" onclick="toggleExams('statepsc')">State PSCs</li>
-                    <ul id="statepsc" class="exams"></ul>
-                </ul>
-            </aside>
-            <section class="content">
-                <h2>Welcome to the Exam Syllabus Portal</h2><br>
-                <p>Select an exam board to view its syllabus.</p>
-                <div id="syllabus-display"></div>
-            </section>
-        </main>
+      <main class="container">
+        <aside class="sidebar">
+          <h2>Exam Boards</h2>
+          <ul>
+            <li class="board collapsible" onclick="toggleExams('ssc')">SSC</li>
+            <ul id="ssc" class="exams hidden"></ul>
+            <li class="board collapsible" onclick="toggleExams('upsc')">
+              UPSC
+            </li>
+            <ul id="upsc" class="exams hidden"></ul>
+            <li class="board collapsible" onclick="toggleExams('banking')">
+              Banking
+            </li>
+            <ul id="banking" class="exams hidden"></ul>
+            <li class="board collapsible" onclick="toggleExams('statepsc')">
+              State PSCs
+            </li>
+            <ul id="statepsc" class="exams hidden"></ul>
+          </ul>
+        </aside>
+        <section class="content content-area">
+          <h2>Welcome to the Exam Syllabus Portal</h2>
+          <br />
+          <p>Select an exam board to view its syllabus.</p>
+          <div id="syllabus-display"></div>
+        </section>
+      </main>
     </section>
 
     <!--About section-->
     <section id="about" class="section2">
-        <h2>About Us</h2>
-        <p>Our <strong>Job Exam Syllabus</strong> platform is designed to provide aspirants with structured and
-            up-to-date syllabus for various competitive exams. This project aims to help candidates prepare effectively
-            by offering a well-organized collection of exam syllabus for <strong>SSC, UPSC, Banking, and State
-                PSCs</strong> in a single place.</p>
+      <h2>About Us</h2>
+      <p>
+        Our <strong>Job Exam Syllabus</strong> platform is designed to provide
+        aspirants with structured and up-to-date syllabus for various
+        competitive exams. This project aims to help candidates prepare
+        effectively by offering a well-organized collection of exam syllabus for
+        <strong>SSC, UPSC, Banking, and State PSCs</strong> in a single place.
+      </p>
 
-        <br>
+      <br />
 
-        <p>Our platform covers:</p>
-        <br>
-        <ul>
-            <li>
-                <p>Comprehensive Exam Syllabus</p>
-            </li>
-            <li>
-                <p>Structured Categorization</p>
-            </li>
-            <li>
-                <p>User-Friendly Navigation</p>
-            </li>
-        </ul>
+      <p>Our platform covers:</p>
+      <br />
+      <ul>
+        <li>
+          <p>Comprehensive Exam Syllabus</p>
+        </li>
+        <li>
+          <p>Structured Categorization</p>
+        </li>
+        <li>
+          <p>User-Friendly Navigation</p>
+        </li>
+      </ul>
 
-        <br>
+      <br />
 
-        <p>Exams we cover:</p>
-        <div class="exam-list">
-            <div class="exam-item">
-                <h3>SSC (Staff Selection Commission)</h3>
-                <p>We offer detailed syllabus for SSC exams such as SSC CGL, SSC CHSL helping
-                    candidates prepare for government jobs.</p>
-            </div>
-
-            <div class="exam-item">
-                <h3>UPSC (Union Public Service Commisision)</h3>
-                <p>Covering the entire UPSC Civil Services syllabus, including Prelims and Mains for IAS, IPS, IFS, and
-                    other administrative services.</p>
-            </div>
-
-            <div class="exam-item">
-                <h3>Banking Exams</h3>
-                <p>Get the latest syllabus for banking exam like IBPS PO, finance-related government job.</p>
-            </div>
-
-            <div class="exam-item">
-                <h3>State PSC (Public Service Commission)</h3>
-                <p>Each state has its own PSC exam (KPSC, MPSC, TNPSC, etc.), and we provide the syllabus for Karnataka
-                    state
-                    administrative services.</p>
-            </div>
+      <p>Exams we cover:</p>
+      <div class="exam-list">
+        <div class="exam-item">
+          <h3>SSC (Staff Selection Commission)</h3>
+          <p>
+            We offer detailed syllabus for SSC exams such as SSC CGL, SSC CHSL
+            helping candidates prepare for government jobs.
+          </p>
         </div>
+
+        <div class="exam-item">
+          <h3>UPSC (Union Public Service Commisision)</h3>
+          <p>
+            Covering the entire UPSC Civil Services syllabus, including Prelims
+            and Mains for IAS, IPS, IFS, and other administrative services.
+          </p>
+        </div>
+
+        <div class="exam-item">
+          <h3>Banking Exams</h3>
+          <p>
+            Get the latest syllabus for banking exam like IBPS PO,
+            finance-related government job.
+          </p>
+        </div>
+
+        <div class="exam-item">
+          <h3>State PSC (Public Service Commission)</h3>
+          <p>
+            Each state has its own PSC exam (KPSC, MPSC, TNPSC, etc.), and we
+            provide the syllabus for Karnataka state administrative services.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!--Contact section-->
     <section id="contact" class="section3">
-        <h2>Contact Us</h2>
-        <p>Email: support@jobexamsyllabus.com</p>
-        <p>Phone: +123-456-7890</p>
-
+      <h2>Contact Us</h2>
+      <p>Email: support@jobexamsyllabus.com</p>
+      <p>Phone: +123-456-7890</p>
     </section>
 
-</body>
-
+    <script src="js/script.js" type="module"></script>
+  </body>
 </html>
