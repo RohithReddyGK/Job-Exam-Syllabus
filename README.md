@@ -56,7 +56,7 @@ The website is fully responsive:
 - ✅ User authentication for personalized experience.
 
 ## 👨‍💻 Contributors
-- **Madhav Chaturvedi** – [GitHub Profile](https://github.com/your-username)
+- **Madhav Chaturvedi** – [GitHub Profile]()
 - **Rohith Reddy.G.K** - [GitHub Profile](https://github.com/RohithReddyGK)
-- **Nikhil Raikwar** - [GitHub Profile](https://github.com/your-username)
+- **Nikhil Raikwar** - [GitHub Profile](https://github.com/geek-nikhil)
 
