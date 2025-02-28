@@ -1,6 +1,40 @@
 import { fetchExamData } from "./dataHandler.js";
 
 document.addEventListener("DOMContentLoaded", () => {
+  //Sidebar button.
+  const sidebar = document.querySelector(".sidebar");
+  const toggleButton = document.getElementById("sidebarToggle");
+  const content=document.querySelector(".content");
+
+  toggleButton.addEventListener("click", function () {
+    sidebar.classList.toggle("open"); // Toggle sidebar visibility
+    content.classList.toggle("shifted"); //Contents shifts automatically.
+
+    // Change the ☰ icon to ❮ when open, and back to ☰ when closed
+    if (sidebar.classList.contains("open")) {
+      toggleButton.innerHTML = "&gt"; // Right arrow(>).
+    } else {
+      toggleButton.innerHTML = "☰"; // Hamburger icon.
+    }
+  });
+
+  //Search Bar Filtering Logic.
+  const searchInput = document.querySelector(".search-bar input");
+
+  searchInput.addEventListener("input", function () {
+    let query = this.value.toLowerCase();
+    let items = document.querySelectorAll(".sidebar .collapsible");
+
+    items.forEach((item) => {
+      let text = item.textContent.toLowerCase();
+      if (text.includes(query)) {
+        item.style.display = "block"; // Show matching items
+      } else {
+        item.style.display = "none"; // Hide non-matching items
+      }
+    });
+  });
+
   // Add click event listeners for exam board buttons in the sidebar
   const examBoardButtons = document.querySelectorAll(".collapsible");
   examBoardButtons.forEach((button) => {

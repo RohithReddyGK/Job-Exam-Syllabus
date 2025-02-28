@@ -19,7 +19,7 @@
         <h1>Job Exam Syllabus</h1>
       </div>
       <div class="search-bar">
-        <input type="text" id="search" placeholder="Search for job exam syllabus....." />
+        <input type="search" id="search" placeholder="Search for job exam syllabus....." />
       </div>
       <nav class="nav-links">
         <a href="#home">Home</a>
@@ -31,6 +31,7 @@
     <!--Home section-->
     <section id="home" class="section1">
       <main class="container">
+        <button id="sidebarToggle" class="sidebar-toggle">☰</button>
         <aside class="sidebar">
           <h2>Exam Boards</h2>
           <ul>
@@ -50,18 +51,20 @@
             <ul id="statepsc" class="exams hidden"></ul>
           </ul>
         </aside>
-        <section class="content content-area">
+        <section class="content">
           <h2>Welcome to the Exam Syllabus Portal</h2>
           <br />
-          <p>Select an exam board to view its syllabus.</p>
-          <div id="syllabus-display"></div>
+          <p>Select an exam board to view its syllabus.</p><br><br>
+          <div id="syllabus-display">
+            <h3>Please select an exam to view the syllabus.</h3>
+          </div>
         </section>
       </main>
     </section>
 
     <!--About section-->
     <section id="about" class="section2">
-      <h2>About Us</h2>
+      <h1>About Us</h1>
       <p>
         Our <strong>Job Exam Syllabus</strong> platform is designed to provide
         aspirants with structured and up-to-date syllabus for various
@@ -70,10 +73,7 @@
         <strong>SSC, UPSC, Banking, and State PSCs</strong> in a single place.
       </p>
 
-      <br />
-
-      <p>Our platform covers:</p>
-      <br />
+      <h2>Our platform covers</h2>
       <ul>
         <li>
           <p>Comprehensive Exam Syllabus</p>
@@ -86,9 +86,7 @@
         </li>
       </ul>
 
-      <br />
-
-      <p>Exams we cover:</p>
+      <h2>Exams we cover</h2>
       <div class="exam-list">
         <div class="exam-item">
           <h3>SSC (Staff Selection Commission)</h3>
