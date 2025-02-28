@@ -49,14 +49,11 @@ The website is fully responsive:
 - **Tablet (≤1024px)**: Sidebar becomes collapsible.
 - **Mobile (≤768px)**: Sidebar is hidden by default and appears when toggled.
 
-## 🎯 Future Enhancements
-- ✅ Search bar improvements for better filtering.
-- ✅ Dark mode support.
-- ✅ Backend integration to fetch syllabus data dynamically.
-- ✅ User authentication for personalized experience.
+## 🖼 Screenshots
+
 
 ## 👨‍💻 Contributors
-- **Madhav Chaturvedi** – [GitHub Profile]()
+- **Madhav Chaturvedi** – [GitHub Profile](https://github.com/madhavxchaturvedi)
 - **Rohith Reddy.G.K** - [GitHub Profile](https://github.com/RohithReddyGK)
 - **Nikhil Raikwar** - [GitHub Profile](https://github.com/geek-nikhil)
 
