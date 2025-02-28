@@ -241,23 +241,32 @@ html {
   box-sizing: border-box;
 }
 
+/* For tablets (width 1024px and below) */
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;
   }
+
   .sidebar {
-    position: static;
-    width: 100%;
-    height: auto;
+    position: fixed;
+    width: 250px;
+    right: -250px;  /* Hide sidebar by default */
+    transition: right 0.3s ease-in-out;
   }
-  .content {
-    margin-right: 0;
+
+  .sidebar.active {
+    right: 0;  /* Show sidebar when active */
   }
 }
 
+/* For mobile phones (width 768px and below) */
 @media (max-width: 768px) {
   .sidebar {
-    display: none;
+    display: none; /* Hide sidebar initially */
+  }
+
+  .sidebar.active {
+    display: block; /* Show sidebar when active */
   }
 }
 
