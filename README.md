@@ -52,20 +52,16 @@ The website is fully responsive:
 ## 🖼️ Screenshots
 
 ### **User-Interactive Web Out-Let.**
-<img src="![Interactive User-Interface](https://github.com/user-attachments/assets/21800a0a-3829-4d49-bd48-00758c477f8a)
-" width="800" height="450">
+<img src="https://github.com/user-attachments/assets/21800a0a-3829-4d49-bd48-00758c477f8a" width="800" height="450">
 
 ### **Syllabus SideBar.**
-<img src="![SideBar](https://github.com/user-attachments/assets/0c488356-f74f-43b4-b3a7-171b7b60fe2d)
-" width="800" height="450">
+<img src="https://github.com/user-attachments/assets/0c488356-f74f-43b4-b3a7-171b7b60fe2d" width="800" height="450">
 
 ### **Search Functionality.**
-<img src="![Search_Functionality](https://github.com/user-attachments/assets/9e0f5154-2db8-4bf8-9b46-f11b9f9d5a8a)
-" width="800" height="450">
+<img src="https://github.com/user-attachments/assets/9e0f5154-2db8-4bf8-9b46-f11b9f9d5a8a" width="800" height="450">
 
 ### **Syllabus Details.**
-<img src="![Syllabus_Details](https://github.com/user-attachments/assets/53681366-1301-461a-8146-cc779f59fcee)
-" width="800" height="450">
+<img src="https://github.com/user-attachments/assets/53681366-1301-461a-8146-cc779f59fcee" width="800" height="450">
   
 ## 👨‍💻 Contributors
 - **Madhav Chaturvedi** – [GitHub Profile](https://github.com/madhavxchaturvedi)
