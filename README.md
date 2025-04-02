@@ -68,4 +68,9 @@ The website is fully responsive:
 - **Rohith Reddy.G.K** - [GitHub Profile](https://github.com/RohithReddyGK)
 - **Nikhil Raikwar** - [GitHub Profile](https://github.com/geek-nikhil)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/270aee9a-dbfe-44c3-875f-a54a9431e0eb/deploy-status)](https://app.netlify.com/sites/job-exam-syllabus/deploys)
+
+### **This project is deployed on Netlify. Click the badge to view the live site:*
+🔗 [job-exam-syllabus.netlify.app](https://job-exam-syllabus.netlify.app/)
+
 ## If you like this, please give a ⭐ to the repo!!
